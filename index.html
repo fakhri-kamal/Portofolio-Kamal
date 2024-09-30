@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    <!-- menu -->
+    <nav>
+        <div class="wrapper">
+        <div class="logo"><img src="Pictures/logo/Slide 16_9 - 1 (1).png"/></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#" style="--i:1">Home</a></li>
+                <li><a href="#statistic" style="--i:2">Services</a></li>
+                <li><a href="#tentang-saya" style="--i:3">About</a></li>
+                <li><a href="#free-course" style="--i:3">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <button class="hamburger-menu">
+            <i class="fa-solid fa-bars icon-bars"></i>
+            <i class="fa-solid icon-close"></i>
+        </button>
+        </div>
+    </nav>
+     <!-- hero-->
+    <header>
+        <div class="header-opacity">
+           
+        </div>
+        <div class="header-jumbotron">
+            <h4>Hello everyone, It's Me</h4>
+            <h5>Fakhri Kamal Ibrahim</h5>
+            <div class="berjalan">
+                <span class="text first-text">And I'm a </span>
+                <span class="text sec-text"></span></div>
+<script>
+    const text = document.querySelector(".sec-text");
+
+    const textLoad = () => {
+        setTimeout(() => {
+            text.textContent = "Network Engineer"
+        }, 0) ;
+        setTimeout(() => {
+            text.textContent = "Photographer"
+        }, 4000) ;
+        setTimeout(() => {
+            text.textContent = "Web Development"
+        }, 8000) ;
+    }
+    textLoad();
+    setInterval(textLoad, 12000) 
+</script>
+
+            <p>Creative front-end developer and expert in Network Working  
+                <br>Technology (TKJ) has 3 certificates and 3 Books. proficient in 
+                <br>javascript and React. passionate about UI/UX.</p>
+                
+            <div class="sosial">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-github fa 2x"></i></a>
+                <a href=""><i class="fa-brands fa-discord"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+           <a href="" class="button">Download CV</a>
+        </div>
+        <div class="foto"><img src="Pictures/logo/WhatsApp Image 2023-12-19 at 22 1 (1).png" alt="person standing" />
+        </div>
+    </header>
+<!--statistic-->
+    <section id="statistic">
+        <div class="wrapper">
+        <div>
+            <img src="Pictures/logo/image 22.png" />
+        </div>
+        <div>
+            <img src="Pictures/logo/a56e7880b8262d3d5a05fd14ebe8ea3d 1.png" />
+        </div>
+        <div>
+            <img src="Pictures/logo/ab559e0a58b555fcef2e160d414a5a2e 1.png" />
+        </div>
+        <div>
+            <img src="Pictures/logo/6d575c36ff5378cd3acb47cfa8566370 1.png" />
+        </div>
+        <div>
+            <img src="Pictures/logo/351842ed775b052fea14dc04d09f27d4 1.png" />
+
+            <script>
+                var swiper = new Swiper(".Portofolio-swiper", {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                 
+                });
+              </script>
+        </div>
+    </section>
+    <!--My Services-->
+    <section id="My-Services">
+        <div class="wrapper">
+            <h4>My <span>Services</span></h4>
+            <p>which service do you want</p>
+
+        <div class="grid">
+        <div class="item">
+            <img src="Pictures/logo/Vector (3).png"  alt="Gambar 1" class="My-Services" id="My-Services1"  />
+            <div class="item-detail">
+                <h4>Photographer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ut? Quam enim ullam itaque veritatis sit qui ipsam facere nisi incidunt voluptates porro, atque obcaecati aperiam cupiditate pariatur assumenda laborum.</p>
+                <div>
+                    <a href="" class="button">Read More</a> 
+                </div>
+            </div>
+        </div> 
+        <div class="item">
+            <img src="Pictures/logo/Vector.png" alt="Gambar 2" class="My-Services" id="My-Services2" />
+            <div class="item-detail">
+                <h4>Network Engineer</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ut? Quam enim ullam itaque veritatis sit qui ipsam facere nisi incidunt voluptates porro, atque obcaecati aperiam cupiditate pariatur assumenda laborum.</p>
+                <div>
+                    <a href="" class="button">Read More</a> 
+                </div>
+            </div>
+        </div> 
+        <div class="item">
+            <img src="Pictures/logo/Vector (2).png" alt="Gambar 3" class="My-Services" id="My-Services3"  />
+            <div class="item-detail">
+                <h4>Front-End Web Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ut? Quam enim ullam itaque veritatis sit qui ipsam facere nisi incidunt voluptates porro, atque obcaecati aperiam cupiditate pariatur assumenda laborum.</p>
+                <div>
+                    <a href="" class="button">Read More</a> 
+                </div>
+            </div>
+        </div> 
+        </div>
+    </section>
+
+    <!-- tentang saya -->
+    <section id="tentang-saya">
+        <div class="wrapper">
+            <h4></h4>
+            <p></p>
+        <div>
+        <div class="sertifikat1"><img src="Pictures/logo/WhatsApp Image 2023-12-19 at 22 1 (1).png"></div>
+    
+        <div class="buku">
+            <h4>About <span>Me</span></h4>
+            <h3>Network Engineer & front-end Development</h3>
+            <p>My name is Fakhri Kamal Ibrahim, I am from Jakarta, West Java 
+                <br>and I was born on 02/06/2007 in Jakarta and I am a student at
+                <br>SMK IDN Pamijahan Bogor.</p>
+            <div class="sosial">
+                <a href="" class="sosial">Read More</a>
+                
+            </div>
+            
+        </div>
+        </div>
+    </section>
+
+    <!-- free course -->
+    <section id="free-course">
+        <div class="wrapper">
+            <h4>Book <span>&</span> certificates</h4>
+            <p>Achievements that I have</p>
+
+            <div class="grid">
+                <div class="item">
+                    <div class="item-detail">
+                        <img src="Pictures/logo/A4 - 1 (7).png"/>
+                    <div>
+                            
+                        </div>
+                    </div>
+                    <div class="item">
+                   
+                        <div class="item-detail">
+                            <img src="" />
+                        </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                   
+                            <div class="item-detail">
+                                <img src="Pictures/logo/Sertifikat-MTCRE-1.png" />
+                            <div>
+               
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                   
+                                    <div class="item-detail">
+                                        <img src="" />
+                                    </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                   
+                                        <div class="item-detail">
+                                            <img src="Pictures/logo/COVER BUKU DEPAN MTCRE (3).png" />
+                                        </div>
+                        
+                                            </div>
+                                        </div>
+
+                                        <!-- free course1 -->
+                                        <section id="free-course1">
+                                            <div class="wrapper">
+                                               
+                                        <div class="grid">
+                                            <div class="item">
+
+                                                <div class="item-detail">
+                                                    <a href="http://127.0.0.1:5502/index.html">
+                                                    <img src="Pictures/logo/Screenshot_7.png"/>
+                                                </a>
+                                                <div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                               
+                                                    <div class="item-detail">
+                                                        <img src="" />
+                                                    </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                               
+                                                        <div class="item-detail">
+                                                            <a href="http://127.0.0.1:5500/index.html">
+                                                            <img src="Pictures/logo/Screenshot_8.png" />
+                                                        </a>
+                                                        <div>
+                                           
+                                                                </div>
+                                                            </div>
+                            
+                                                            <div class="item">
+                                               
+                                                                <div class="item-detail">
+                                                                    <img src="" />
+                                                                </div>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                           
+                                                                <div class="item">
+                                               
+                                                                    <div class="item-detail">
+                                                                        <a href="http://127.0.0.1:5500/index.html">
+                                                                        <img src="Pictures/logo/Screenshot_11.png" />
+                                                                    </a>
+                                                                    <div>
+                                                       
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="item">
+                                               
+                                                                            <div class="item-detail">
+                                                                                <img src="" />
+                                                                            </div>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                       
+                                                                            <div class="item">
+                                                           
+                                                                                <div class="item-detail">
+                                                                                    <a href="http://127.0.0.1:5500/index.html">
+                                                                                    <img src="Pictures/logo/Screenshot_7 1.png" />
+                                                                                </a>
+                                                                                <div>
+                                                                   
+                                                                                        </div>
+                                                                                    </div>
+                                        
+                                                                        <div class="item">
+                                                           
+                                                                            <div class="item-detail">
+                                                                                <img src="" />
+                                                                            </div>
+                                                                                    
+                                                                                </div>
+                                                                            </div>
+
+                                                                <div class="item">
+                                               
+                                                                    <div class="item-detail">
+                                                                        <a href="http://127.0.0.1:5501/index.html">
+                                                                        <img src="Pictures/logo/kamal.png" />
+                                                                    </a>
+                                                                    </div>
+                                                    
+                                                                        </div>
+                                                                    </div>
+
+                                        
+
+                                        
+                                        
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <section id="contact">
+            
+               
+            <h2>Contact Me</h2>
+            <div class="kamal">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="GlobalFooter__Container GlobalFooter__Menu">
+                <div class="GlobalFooter__Menu__List"><div>
+                    <h4 class="GlobalFooter__Menu__List--title" aria-label="Services">Services</h4>
+                    <ul role="presentation"><li class="GlobalFooter__Menu__List__Item">
+                        <a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Terms of Use" target="_self" rel="noopener" >CCNA</a>
+                    </li><li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Privacy Policy" target="_self" rel="noopener" >MTCNA</a>
+                    </li><li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Your US State Privacy Rights" target="_self" rel="noopener" >MTCRE</a></li>
+                    <li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Children's Online Privacy Policy" target="_self" rel="noopener" >Fortinet</a>
+                    </li><li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Interest-Based Ads" target="_self" rel="noopener" >App developer</a></li>
+                    <li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="About Nielsen Measurement" target="_self" rel="noopener" >Game developers</a></li>
+                    <li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link ot-sdk-show-settings" tabindex="0" data-track-event_name="Do Not Sell or Share My Personal Information" target="_self" rel="noopener" >Web Page Creation with HTML, CSS, and JavaScript</a>
+                    </li></ul></div></div><div class="GlobalFooter__Menu__List"><div><h4 class="GlobalFooter__Menu__List--title" aria-label="Contact">Contact</h4><ul role="presentation"><li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="National Geographic" target="_self" rel="noopener" >fakhrikamalibrahim@gmail.com</a></li>
+                        <li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="National Geographic Education" target="_self" rel="noopener" >+62 415-3582-8331</a></li>
+                        <li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Shop Nat Geo" target="_self" rel="noopener" cmp=NATGEO_NatGeoKids_NatGeo_Site_IntegratedLink_012521_NatGeoSite_kids>Malioboro, Yogyakarta</a></li>
+                        <li class="GlobalFooter__Menu__List__Item"><a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Customer Service" target="_self" rel="noopener" >Gg. Abimanyu No.1090, Sorosutan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55162</a></li></ul></div></div><div class="GlobalFooter__Menu__List"><div><h4 class="GlobalFooter__Menu__List--title" aria-label="Join Us">Support Me</h4><ul role="presentation"><li class="GlobalFooter__Menu__List__Item">
+                            <a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Subscribe" target="_self" rel="noopener" >@fakhrikamalib</a>
+                        </li><li class="GlobalFooter__Menu__List__Item">
+                            <a class="AnchorLink GlobalFooter__Menu__List__Item--link" tabindex="0" data-track-event_name="Manage Your Subscription " target="_self" rel="noopener" >Fakhri Kamal Ibrahim </a></li></ul></div></div><div class="GlobalFooter__Menu__ConstantContainer"></div></div>
+            
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+               
+            <form>
+    
+                <form id="contact-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="email">Phone:</label>
+                <input type="phone" id="phone" name="phone" required>
+            <form>
+
+                <form id="contact-form">
+                <label for="message">Pesan:</label>
+                <input type="pesan" id="pesan" name="pesan" required>
+ 
+                </form>
+                <form id="contact-form">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+        <!-- Footer -->
+        
+    
+    </body>
+    </html>
+    
+   <footer>
+    <div class="footer-teks"> 
+        <div class="footer-teks">
+            &copy; 2023 by fakhri Kamal Ibrahim | All Rights Reserved</div>
+   </footer>
+   <script src="js/main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+  
+</body>
+</html>
+    
